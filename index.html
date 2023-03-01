@@ -12,6 +12,8 @@
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/f32a350683.js" crossorigin="anonymous"></script>
   </head>
   <body>
 <!-- header section starts from here -->
@@ -48,7 +50,64 @@
           </div>
     </section>
     <!-- categories section starts from here -->
+    <section class="container mx-auto mb-8">
+        <div id="categories" class="mt-4 mb-4 md:flex justify-between"></div>
+        <!-- show category number -->
+        <div class="bg-slate-500 text-white p-4 rounded" id="results">
+        <p class="font-semibold text-lg">4 items found for category Entertainment</p>
+        </div>
+        <!-- todays pick -->
+        <div class="mt-4 w-full flex justify-between items-center">
+           <div class="w-2/12">
+            <div class="form-control">
+                <p class="px-2 text-md font-semibold mb-1">Sort By view</p>
+                <select class="select select-bordered">
+                  <option disabled selected>Default</option>
+                  <option>Breaking News</option>
+                  <option>Regular News</option>
+                  <option>International News</option>
+                  <option>Sports</option>
+                  <option>Entertainment</option>
+                  <option>Culture</option>
+                  <option>Arts</option>
+                  <option>All News</option>
+                </select>
+              </div>
+           </div>
+              <!-- buttons -->
+              <div class="flex gap-4">
+                <button class="btn bg-blue-400 border-0">Today’s Pick</button>
+                <button class="btn bg-slate-200 border-0 text-black hover:text-white">Trending</button>
+              </div>
+        </div>
+    </section>
 </header>
+
+<section>
+    <!-- <div>
+        <img src="" alt="">
+        <div>
+            <p></p>
+            <p></p>
+        </div>
+    </div>
+    <div>
+        <p></p>
+        <p></p>
+    </div>
+    <div>
+        'icons'
+    </div>
+    <div>
+        'icon'
+    </div> -->
+</section>
+
+<!-- main section starts from here -->
+<main>
+<section id="cards" class="container mx-auto">
+</section>
+</main>
 
     <!-- js -->
     <script src="js/script.js"></script>
